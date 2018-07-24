@@ -64,7 +64,7 @@ namespace AccesaEmployee
 
         private static void PopulateEmployeeList(OfficeManagement officeManagement)
         {
-            var allInformation = File.ReadAllText(@"C:\Users\semida.lucaciu\Downloads\officeDB.txt");
+            var allInformation = File.ReadAllText(@"C:\Users\norbert.jambor\Desktop\officeDB.txt");
             char[] arr = new char[] { '\r', '\n' };
             
             var employees = allInformation.Split(new string[] { nameof(Employee), "{", "}" }, StringSplitOptions.RemoveEmptyEntries);

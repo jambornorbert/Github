@@ -1,0 +1,31 @@
+﻿<employees>
+  <employee>
+    <name> Andrei</name>
+    <capacity>8.5</capacity>
+    <hobbies>
+      <hobby>gaming</hobby>
+      <hobby>long hair</hobby>
+      <hobby> voluntariat</hobby>
+    </hobbies>
+    <position>Intern</position>
+    <universityName />
+    <yearOfStudy>0</yearOfStudy>
+  </employee>
+  <employee>
+    <name>Dutu</name>
+    <capacity>8</capacity>
+    <hobbies>
+      <hobby>joker</hobby>
+      <hobby> dancer</hobby>
+    </hobbies>
+    <position>DEV</position>
+    <employee>
+      <name>Daniel</name>
+      <capacity>8</capacity>
+      <hobbies>
+        <hobby>nu are</hobby>
+      </hobbies>
+      <position>QA</position>
+    </employee>
+  </employee>
+</employees>
